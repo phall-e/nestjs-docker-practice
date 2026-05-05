@@ -28,7 +28,25 @@
 ## Project setup
 
 ```bash
+$ git clone https://github.com/phall-e/nestjs-docker-practice.git
+```
+
+```bash
+$ cp env.production .env
+```
+
+```bash
 $ docker compose up -d --build
+```
+
+## Swagger UI accessing
+```bash
+$ http://localhost:8000/api/docs
+```
+
+## Swagger JSON for Postsman
+```bash
+$ http://localhost:8000/api/-json
 ```
 
 ## Tech Stack
